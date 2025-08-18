@@ -108,7 +108,7 @@ footer {
     background-color: transparent;
     border: 2px black;
     color: white;
-    margin-top: 80px;
+    margin-top: 20px;
 }
 
 h1 {
@@ -116,8 +116,9 @@ h1 {
     margin-bottom: 30px;
 }
 
-p {
+.paragraph1 {
     font-size: 20px;
+    text-align: center;
 }
 
 .double-tag {
@@ -164,22 +165,66 @@ p {
     align-items: center;
 }
 
-.square2 {
-    width: 500px;
+.square2a {
+    background-image: url(../img/item1.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
     height: 400px;
-    background-color: rgb(68, 138, 218);
-    border: 2px dashed black
+    background-color: transparent;
+    border: 2px black
 }
 
 .square3 {
     width: 400px;
     height: 400px;
-    background-color: pink;
-    border: 2px dashed black
+    background-color: transparent;
+    border: 2px black
 }
 
-.background-square4 {
-    background-color: rgb(194, 194, 194);
+h2 {
+    font-size: 45px;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.paragraph2 {
+    font-size: 20px;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.square2b {
+    width: 600px;
+    height: 400px;
+    background-color: transparent;
+    border: 2px black
+}
+
+.square2c {
+    background-image: url(../img/item3.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 600px;
+    height: 400px;
+    background-color: transparent;
+    border: 2px black
+}
+
+.title3 {
+    margin-top: 70px;
+}
+
+.paragraph4 {
+    font-size: 20px;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.background-square4a {
+    background-color: rgb(243, 239, 239);
     width: 100%;
     height: 500px;
     display: flex;
@@ -189,7 +234,24 @@ p {
     flex-direction: row-reverse;
 }
 
-.background-square4- {
+.square2b {
+    background-image: url(../img/item2.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title2 {
+    margin-top: 80px;
+}
+
+.paragraph3 {
+    text-align: left;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.background-square4b {
     width: 100%;
     height: 800px;
     background-color: rgb(194, 194, 194);
