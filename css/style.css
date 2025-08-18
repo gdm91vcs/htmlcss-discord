@@ -8,12 +8,16 @@ img {
     max-width: 100%;
 }
 
-.flex-container1 {
-    display: flex;
+body {
+  font-family: "Roboto Flex", sans-serif;
+}
+
+footer {
+  font-family: "Roboto Flex", sans-serif;
 }
 
 .background-square {
-    background-color: rgb(153, 223, 245);
+    background-color: rgb(9, 123, 175);
     width: 100%;
     height: 100px;
     display: flex;
@@ -24,47 +28,72 @@ img {
 }
 
 .rectangle1 {
-    border: 2px dashed black;
-    width: 200px;
-    height: 30px;
-    background-color: goldenrod;
+    border: 2px black;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(9, 123, 175);
     text-align: left;
-    padding: 5px;
+    padding: 10px;
 }
 
-nav a {
+.Logo1 {
+    background-image: url(../img/logo.svg);
+    width: 100px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 15px;
+}
+
+.nav-sopra a,
+.download-mac a {
     text-decoration: none;
     color: black;
+}
+
+.nav-sopra {
+    background-color: white;
+    width: 70px;
+    height: 25px;
+    text-align: center;
+    padding: 3px;
+    border-radius: 12px;
+    display: inline-block;
 }
 
 .rectangle2 {
-    border: 2px dashed black;
+    border: 2px black;
     width: 500px;
     height: 30px;
-    background-color: goldenrod;
+    background-color: rgb(9, 123, 175);
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 50px;
     padding: 5px;
 }
 
-.rectangle2 a,
-.rectangle3 a {
+.rectangle2 a {
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .rectangle3 {
-    border: 2px dashed black;
-    width: 200px;
+    border: 2px black;
+    width: 300px;
     height: 30px;
-    background-color: goldenrod;
+    background-color: rgb(9, 123, 175);
     text-align: right;
     padding: 5px;
+    color: black;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .background-square2 {
-    background-color: rgb(5, 5, 133);
+    background-image: url(../img/jumbo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
     height: 400px;
     display: flex;
@@ -76,8 +105,53 @@ nav a {
 .square {
     width: 650px;
     height: 300px;
-    background-color: rgb(207, 141, 164);
-    border: 2px dashed black;
+    background-color: transparent;
+    border: 2px black;
+    color: white;
+    margin-top: 80px;
+}
+
+h1 {
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.double-tag {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.download-mac {
+    background-color: white;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 12px;
+    display: inline-block;
+}
+
+.open-browser {
+    background-color: rgb(0, 0, 0);
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 12px;
+    display: inline-block;
+}
+
+.open-browser a {
+    text-decoration: none;
+    color: white;
 }
 
 .background-square3 {
