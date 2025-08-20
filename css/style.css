@@ -16,6 +16,7 @@ footer {
   font-family: "Roboto Flex", sans-serif;
 }
 
+/* inizio body */
 .background-square {
     background-color: rgb(9, 123, 175);
     width: 100%;
@@ -314,20 +315,9 @@ h3 {
     text-decoration: none;
     padding: 6px;
 }
+/* fine body */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* inizio footer */
 .background-square5 {
     background-color: black;
     width: 100%;
@@ -335,22 +325,48 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: left;
 }
 
 .square5 {
-    background-color: coral;
+    background-color: transparent;
     width: 248px;
     height: 480px;
-    border: 2px dashed black;
+    border: 2px rgb(255, 255, 255);
     margin-top: -10px;
 }
 
+.paragraph6 {
+    color: white;
+}
+
+.img-italy {
+    width: 30px;
+}
+
+.h3-2 {
+    color: rgb(40, 40, 218);
+    font-size: 30px;
+    display: flex;
+    margin-top: 30px;
+}
 .square6 {
-    background-color: cadetblue;
+    background-color: transparent;
     width: 163px;
     height: 480px;
-    border: 2px dashed rgb(255, 255, 255);
+    border: 2px rgb(255, 255, 255);
     margin-top: -10px;
+}
+
+h4 {
+    color: rgb(40, 40, 218);
+    margin-top: 40px;
+}
+
+.list {
+    margin-top: 20px;
+    list-style: none;
+    color: white
 }
 
 .background-square7 {
@@ -364,34 +380,39 @@ h3 {
 }
 
 .square7 {
-    background-color: rgb(88, 194, 212);
+    background-color: transparent;
     width: 900px;
     height: 60px;
     display: flex;
     justify-content: space-between;
 }
 
-.logo2 {
+hr {
+
+ }
+
+ .logo2 {
+    background-image: url(../img/logo.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     text-align: left;
     justify-content: center;
     align-items: center;
     display: flex;
-    background-color: coral;
-    width: 50px;
+    background-color: transparent;
+    width: 100px;
     height: 40px;
-    border: 2px dashed black;
-    margin: 10px;
 }
 
-.but {
-    text-align: right;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin: 10px;
-    background-color: coral;
-    width: 70px;
+.reg a {
+    background-color: rgb(40, 40, 218);
+    width: 90px;
     height: 40px;
-    border: 2px dashed black;
-    margin: 10px;
+    color: white;
+    border-radius: 12px;
+    text-decoration: none;
+    padding: 6px;
+    text-decoration: none;
 }
+/* fine footer */
