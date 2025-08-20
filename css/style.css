@@ -45,13 +45,13 @@ footer {
     padding: 15px;
 }
 
-.nav-sopra a,
+.nav-up a,
 .download-mac a {
     text-decoration: none;
     color: black;
 }
 
-.nav-sopra {
+.nav-up {
     background-color: white;
     width: 70px;
     height: 25px;
@@ -126,7 +126,7 @@ h1 {
     text-align: center;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 10px;
     margin-top: 30px;
 }
 
@@ -142,7 +142,7 @@ h1 {
 
 .open-browser {
     background-color: rgb(0, 0, 0);
-    width: 250px;
+    width: 230px;
     height: 30px;
     text-align: center;
     padding: 5px;
@@ -186,13 +186,13 @@ h1 {
 h2 {
     font-size: 45px;
     text-align: left;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .paragraph2 {
     font-size: 20px;
     text-align: left;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .square2b {
@@ -252,9 +252,9 @@ h2 {
 }
 
 .background-square4b {
+    background-color: rgb(243, 239, 239);
     width: 100%;
     height: 800px;
-    background-color: rgb(194, 194, 194);
     display: flex;
     text-align: center;
     justify-content: center;
@@ -263,11 +263,70 @@ h2 {
 }
 
 .square4 {
+    background-image: url(../img/item4-big.svg);
+    background-position: center;
+    background-repeat: no-repeat;
     width: 900px;
-    height: 700px;
-    background-color: green;
-    border: 2px dashed black;
+    height: 800px;
+    background-color: transparent;
+    border: 2px black;
+    margin-top: 10px;
 }
+
+h2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.paragraph5 {
+    margin-top: -40px;
+    font-size: 20px;
+}
+
+.stars {
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 700px;
+    margin-top: 480px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h3 {
+    font-size: 35px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.nav-down1 a {
+    background-color: rgb(40, 40, 218);
+    width: 150px;
+    height: 70px;
+    color: white;
+    border-radius: 12px;
+    text-decoration: none;
+    padding: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .background-square5 {
     background-color: black;
